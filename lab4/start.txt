@@ -1,0 +1,21 @@
+conda create --name cplex python=3.8
+conda activate cplex
+python C:\Utils\IBM\ILOG\CPLEX_Studio201\python\setup.py install
+
+conda activate cplex
+cd C:\Users\User\anaconda3\envs\cplex
+set PATH=%PATH%;C:\Utils\IBM\ILOG\CPLEX_Studio201\cplex\bin\x64_win64
+
+проверочные команды:
+where python
+C:\Users\User\anaconda3\envs\cplex\python.exe
+C:\Users\User\anaconda3\python.exe
+C:\Users\User\AppData\Local\Programs\Python\Python38\python.exe
+C:\Users\User\AppData\Local\Microsoft\WindowsApps\python.exe
+
+where pip
+C:\Users\User\anaconda3\envs\cplex\Scripts\pip.exe
+C:\Users\User\anaconda3\Scripts\pip.exe
+C:\Users\User\AppData\Local\Programs\Python\Python38\Scripts\pip.exe
+
+python C:\Utils\IBM\ILOG\CPLEX_Studio201\python\examples\cp\basic\facility.py
