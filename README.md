@@ -5,7 +5,7 @@
 
 Содержание работ:
 
-1) Жадная эвристика для решения "Vertex coloring problem".
-2) Жадная рандомизированная эвристика для решения "Maximum clique problem".
-3) (не обязательная)
-4) Алгоритм Ветвей и Границ (Branch and Bound) для решения "Maximum clique problem".
+1) Жадная эвристика для решения "Vertex Coloring Problem".
+2) Жадная рандомизированная эвристика для решения "Maximum Clique Problem".
+3) Локальный поиск для решения "Maximum Clique Problem". (не обязательная)
+4) Алгоритм Ветвей и Границ (Branch and Bound) для решения "Maximum Clique Problem".
