@@ -1,4 +1,4 @@
-Устанавливаем CPLEX с помощью установщика из папки /CPLEX в зависимости от операционной системы в папку C:\Utils.
+Устанавливаем CPLEX с помощью установщика (CPLEX_20.10_WIN_X86_64.exe или ILOG_COS_20.10_LINUX_X86_64.bin) из папки /CPLEX в зависимости от операционной системы в папку C:\Utils.
 
 conda create --name cplex python=3.8
 conda activate cplex
@@ -8,16 +8,19 @@ conda activate cplex
 cd C:\Users\User\anaconda3\envs\cplex
 set PATH=%PATH%;C:\Utils\IBM\ILOG\CPLEX_Studio201\cplex\bin\x64_win64
 
-проверочные команды:
+Проверочные команды:
+Для python (первый вывод — используемый python): 
 where python
 C:\Users\User\anaconda3\envs\cplex\python.exe
 C:\Users\User\anaconda3\python.exe
 C:\Users\User\AppData\Local\Programs\Python\Python38\python.exe
 C:\Users\User\AppData\Local\Microsoft\WindowsApps\python.exe
 
+Для pip (первый вывод — используемый pip): 
 where pip
 C:\Users\User\anaconda3\envs\cplex\Scripts\pip.exe
 C:\Users\User\anaconda3\Scripts\pip.exe
 C:\Users\User\AppData\Local\Programs\Python\Python38\Scripts\pip.exe
 
+Хапуск примера для проверки работоспособности CPLEX:
 python C:\Utils\IBM\ILOG\CPLEX_Studio201\python\examples\cp\basic\facility.py
