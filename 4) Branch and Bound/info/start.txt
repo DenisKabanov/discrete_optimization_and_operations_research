@@ -1,3 +1,5 @@
+Устанавливаем CPLEX с помощью установщика из папки /CPLEX в зависимости от операционной системы в папку C:\Utils.
+
 conda create --name cplex python=3.8
 conda activate cplex
 python C:\Utils\IBM\ILOG\CPLEX_Studio201\python\setup.py install

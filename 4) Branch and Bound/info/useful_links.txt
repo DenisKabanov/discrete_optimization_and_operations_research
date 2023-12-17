@@ -1,0 +1,2 @@
+Гайд по работе CPLEX:
+https://courses.ie.bilkent.edu.tr/ie400/wp-content/uploads/sites/8/2021/12/IBM-ILOG-CPLEX-PYTHON-API.pdf
